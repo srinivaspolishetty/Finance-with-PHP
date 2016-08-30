@@ -1,0 +1,170 @@
+body
+{
+	margin:0;
+	padding:0;
+}
+.mybtn
+{
+	margin:0;
+	padding:10px;
+}
+.mybtn i
+{
+	font-size:20px;
+}
+.profilepic
+{
+	width:30px;
+	height:30px;
+}
+.logoimg
+{
+	margin:0;
+	padding:10px;
+}
+.apptitle
+{
+	margin:0;
+	padding:10px;
+	font-weight:bold;
+	font-size:26px;
+}
+
+.profile-btn
+{
+	margin:6px 0px 0px 0px;
+	background-image:none!important;
+	border:0px solid #000000!important;
+	box-shadow:none!important;
+	
+}
+.profileimg img
+{
+	margin:0;
+	padding:0;
+	border-radius:50px;
+	border:1px solid #000000;
+	width:35px;
+	height:35px;
+}
+.cent-cont
+{
+	padding-top:100px;
+	padding-bottom:80px;
+}
+.form-label
+{
+	font-weight: normal;;
+}
+textarea
+{
+	resize:none;
+}
+.splbtn
+{
+	margin-top:25px;
+}
+#searchtbl
+{
+	display: none;
+}
+.mytable thead tr th
+{
+	background-color:#337ab7;
+	color:#ffffff;
+	text-align:center;
+}
+.loginbtn
+{
+      
+  position: absolute;
+  margin: auto;
+  padding:0px;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 80px;
+  
+    }
+.loginlogo
+{
+	margin:-15px 0px 10px 0px;
+	padding:0;
+	text-align:center;
+}
+.dropdown-menu li a
+{
+	margin:0;
+	padding:12px 20px 12px 20px;
+	display: block;
+}
+
+.dateicon
+{
+	padding-top:9px;
+	padding-bottom:9px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+input[type="number"]
+{
+	-moz-appearance: textfield;
+}
+.money
+{
+	padding-left:28px;
+}
+.rupeeicon
+{
+	position:fixed;
+	top:35px;
+	left:32px;
+}
+
+.has-error .form-control
+{
+	border: 2px solid #ffff00;
+}
+.login-form .has-error
+{
+color:#ffff00;
+}
+.has-success .form-control
+{
+	border-color:#ffffff;
+}
+.invaliduser
+{
+	color:#ffff00;
+	font-weight:bold;
+	text-align: center;
+	padding:0px 0px 10px 0px;
+	font-size: 20px;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+<html ng-app="indexapp" ng-controller="homecontroller" ng-init="onload()">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<meta name="viewport" content="initial-scale=1">
+	<script src="../../js/angularjs/angular.min.js"></script>
+	
+	
+	<script src="../../js/angularjs/ngStorage.min.js"></script>
+	
+<script src="../../js/angularjs/angular-block-ui.js"></script>
+<script src="../../js/angularjs/angular-sanitize.min.js"></script>
+<script src="../../js/angularjs/angular-touch.min.js"></script>
+<script src="../../js/angularjs/angular-ui-router.min.js"></script>
+<script src="../../js/angularjs/ui-bootstrap-tpls.min.js"></script>
+<script src="../../js/angularjs/jcs-auto-validate.min.js"></script>
+
+
+
+	<script src="../../js/jquery/jquery.min.js"></script>
+<script src="../../js/bootstrap/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../../css/animate.css">
+  <link rel="stylesheet" type="text/css" href="../../css/mystyles.css">
+    <link rel="stylesheet" type="text/css" href="../../css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../../css/bootstrap-theme.css">
+    <script  src="../../js/homemodule/home.js"></script>
+    
+    
+        <script  src="../../js/commonmodule/commonmodule.js"></script>
+        <script  src="../../js/addtrancmodule/addtranc.js"></script>
+        <script  src="../../js/includemodule/menu.js"></script>
+        <script  src="../../js/includemodule/header.js"></script>
+        <script  src="../../js/viewdetailsmodule/viewdetails.js"></script>
+        <script  src="../../js/dashboardmodule/dashboard.js"></script>
+        
+  
+  
+  </head>
+<body>
+
+<!--  ************************************ HEADER SECTION STARTS HERE********************************************  -->
+<div class="myheader" data-ng-include="'../../views/otherincludes/header.html'" data-ng-controller="headercontroller" > </div>
+<!--  ************************************ HEADER SECTION ENDS HERE********************************************  -->
+
+<!--  ************************************ MENU SECTION STARTS HERE********************************************  -->
+<div class="myheader" data-ng-include="'../../views/otherincludes/menu.html'" data-ng-controller="addtranc" > </div>
+<!--  ************************************ MENU SECTION ENDS HERE********************************************  -->
+
+
+<!--  ************************************ CONTENT SECTION STARTS HERE********************************************  -->
+<br><br><br>
+<div class="container cent-cont" ui-view> </div>
+<!--  ************************************ CONTENT SECTION ENDS HERE********************************************  -->
+
+
+
+</body>
+</html>

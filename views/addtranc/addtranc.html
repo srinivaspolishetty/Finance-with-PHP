@@ -1,0 +1,87 @@
+<div ng-controller="addtranc" ng-init="onload()">
+
+<form name="addtrancform" novalidate="" ng-submit="addtranc(addtrancfield);">
+  
+
+    <div class="col-md-12">
+            
+
+            <div class="col-sm-12 col-md-4 animated fadeInUp" style="z-index:999999;" >
+                 <div class="form-group">
+                <label class="form-label">Transaction Date</label>
+                <div class="input-group">
+                  <input type="text" class="form-control" ng-click="trancDateopen()" uib-datepicker-popup="{{DateFormat}}" is-open="trancDatePopup.opened" datepicker-options="trancDateOptions" close-text="Close" alt-input-formats="altInputFormats" ng-model="addtrancfield.trancDate" required />
+                  <span class="input-group-btn">
+            <button type="button" class="btn btn-default dateicon" ng-click="trancDateopen()"><i class="glyphicon glyphicon-calendar"></i></button>
+            </span>
+                </div>
+                </div>
+              </div> 
+              
+              
+              
+              
+              
+              
+              
+
+
+<script src="../../js/jquery/alljquery.js"></script>
+          <div class="col-sm-6 col-md-4 animated fadeInUp">
+                <div class="form-group">
+                <label class="form-label">Amount</label>
+                <span class="rupeeicon"><i class="fa fa-inr" aria-hidden="true"></span>
+                </i><input type="number" data-format="rupee" min="0" class="form-control money" placeholder="Amount"  ng-model="addtrancfield.amount" required="">
+              </div>
+            </div>
+
+
+
+
+
+
+          <div class="col-sm-6 col-md-4 animated fadeInUp" >
+              <div class="form-group">
+                <label class="form-label">Amount Type</label>
+                <select class="form-control" ng-model="addtrancfield.amounttype" required >
+                  <option value="">Select</option>
+                  <option>Income</option>
+                  <option>Expenditure</option>
+                </select>
+              </div>
+            </div>
+
+
+
+
+
+
+
+        <div class="col-sm-12 col-md-12 animated fadeInUp">
+                <div class="form-group">
+                <label class="form-label">Details</label>
+                <textarea class="form-control" rows="4" placeholder="Details" ng-model="addtrancfield.details" required></textarea>
+              </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="col-sm-12 col-md-12 animated fadeInUp">
+                <button type="submit" class="btn btn-primary pull-right"><i class="fa fa-plus-circle" aria-hidden="true"></i>Add Transaction</button>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+    </form>
+
+</div>

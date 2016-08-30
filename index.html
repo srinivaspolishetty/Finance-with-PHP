@@ -1,0 +1,50 @@
+<html ng-app="mainapp" ng-controller="indexcontroller" ng-init="onload()">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+  <meta name="viewport" content="initial-scale=1">
+	<script src="js/angularjs/angular.min.js"></script>
+	<script src="js/jquery/jquery.min.js"></script>
+	<script src="js/bootstrap/bootstrap.min.js"></script>
+  <script src="js/angularjs/angular-base64.js"></script>
+  <script src="js/angularjs/jcs-auto-validate.min.js"></script>
+  <script src="js/angularjs/angular-block-ui.js"></script>
+  <script src="js/angularjs/ngStorage.min.js"></script>
+  <script src="js/angularjs/ui-bootstrap-tpls.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/mystyles.css">
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+  <script type="text/javascript" src="js/module/mainmodule/main.js"></script>
+
+  
+	</head>
+<body>
+<form name="loginform" novalidate="" ng-submit="logn(login)">
+
+
+
+
+
+<div class="login-form">
+     <div class="loginlogo"><img class="logoimg" src="images/logo.png"></div>
+     <span ng-show="wrongcred" class="invaliduser">Invalid Credentials</span>
+     <div class="form-group ">
+       <input type="text" class="form-control" placeholder="Username" required="" ng-model="login.UserName">
+       <i class="fa fa-user"></i>
+     </div>
+     <div class="form-group log-status">
+       <input type="password" class="form-control" placeholder="Password" required="" ng-model="login.Passwod">
+       <i class="fa fa-lock"></i>
+     </div>
+      <a class="link" href="#">Lost your password?</a>
+     <button type="submit" class="log-btn" >Log in</button>
+         
+   </div>
+   
+   </form>
+
+</body>
+</html>
